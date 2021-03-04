@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+.message {
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+  text-align: start !important;
+}
+
+.chip{
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: aliceblue;
+  margin-bottom: 1px;
+}
+.message__user {
+  margin-left: auto;
+  color: azure;
+  text-align: right;
+  /* border-radius:12px */
+}
+
+.message__usercard {
+  background-color: #0b81ff !important;
+  /* background-image: linear-gradient(90deg, #ad5389, #3c1053); */
+  border-radius: 50px !important;
+}
+.message__guestcard {
+  background-color: #e9e9eb !important;
+  /* background-image: linear-gradient(45deg, #2e368ce0, #cc2020); */
+  border-radius: 50px !important;
+}
+
+.message__cardContent{
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}

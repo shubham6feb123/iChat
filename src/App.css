@@ -1,38 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+html{
+  background-color: black;
+}
+.root{
+  background-color: black;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-family: 'Archivo Black', sans-serif;
+  color:aliceblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2{
+  font-family: initial;
+  color:aliceblue;
+}
+.messenger_logo{
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app__form{
+  padding: 10px;
+position: fixed;
+bottom: 4px;
+width: 78%;
+background-color: #e9e9eb;
+z-index: 1;
+opacity: .2;
+border-radius: 9px;
+background-color: #fff;
+margin: 20px 20px 2px 20px;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+.app__formcontrol{
+  display: flex !important;
+  flex-direction: row !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__input{
+  flex: 1;
 }
+/* .app__IconButton{
+
+} */
+
+
